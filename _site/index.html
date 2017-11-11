@@ -92,13 +92,6 @@
         </div>
     </section><!--//promo-->
 
-<!-- ******OFFICER LIST****** --> 
-<section id="features" class="features section">
-	<div class='fill-screen'>
-    	<img class='make-it-fit' src='public/images/coverphoto.jpg'>
-	</div>
-</section><!--//features-->
-
     <!-- ******ABOUT****** --> 
     <section id="about" class="about section">
 
@@ -145,6 +138,39 @@
             </div><!--//row-->            
         </div><!--//container-->
     </section><!--//about-->
+
+<!-- ******OFFICER LIST****** --> 
+<section id="features" class="features section">
+	<style>
+	  * {
+	    padding: 0;
+	    margin: 0;
+	  }
+	  .fit { /* set relative picture size */
+	    max-width: 100%;
+	    max-height: 100%;
+	  }
+	  .center {
+	    display: block;
+	    margin: auto;
+	  }
+	</style>
+	</head>
+	<body>
+
+	<img class="center fit" src="public/images/coverphoto.jpg" >    
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" language="JavaScript">
+	  function set_body_height() { // set body height = window height
+	    $('body').height($(window).height());
+	  }
+	  $(document).ready(function() {
+	    $(window).bind('resize', set_body_height);
+	    set_body_height();
+	  });
+	</script>
+</section><!--//features-->
 
     <!-- ******CONTACT****** --> 
     <section id="contact" class="contact section has-pattern">
