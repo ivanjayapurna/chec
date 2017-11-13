@@ -8,11 +8,11 @@ jQuery(document).ready(function($) {
     $(window).bind('scroll', function() {
          if ($(window).scrollTop() > 50) {
              $('#header').addClass('navbar-fixed-top');
-             $('#logochange').attr('src','public/images/whiteicon.png')
+             $('#logochange').attr('src','public/images/WhiteIcon.png')
          }
          else {
              $('#header').removeClass('navbar-fixed-top');
-             $('#logochange').attr('src','public/images/icon.png')
+             $('#logochange').attr('src','public/images/Icon.png')
          }
     });
    
