@@ -294,6 +294,78 @@ pre code {
   color: #5D2C85;
   font-size: 18px;
 }
+
+
+.sim{
+  height: 400px;
+  width:100%;
+  background: url(../images/otherplan.png);
+  background-position: center; 
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+/*Projects Section*/
+.projects {
+  padding: 80px 0;
+  background: #f5f5f5;
+}
+.projects .title {
+  color: #5D2C85;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.projects .intro {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.projects .item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.projects .item .icon-holder {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+.projects .item .icon-holder .fa {
+  font-size: 24px;
+  color: #5D2C85;
+}
+.projects .item .content {
+  padding-left: 60px;
+}
+.projects .sub-title {
+  margin-top: 0;
+  color: #5D2C85;
+  font-size: 18px;
+}
+
+.project-container{
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  height: 300px;
+}
+
+.project-description{
+  width: 400px;
+  float: right;
+  margin: 10px 20px;
+  position: relative;
+}
+
+.project-logo {
+  width:300px;
+  float: left;
+  margin: 10px 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-70%);
+}
+
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
