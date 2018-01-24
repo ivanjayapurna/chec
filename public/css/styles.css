@@ -7,8 +7,8 @@
 */
 /* Default */
 /* ======= Base ======= */
-input:focus {
-    outline:none;
+section{
+  outline: none;
 }
 
 
